@@ -1,0 +1,9 @@
+name: astrbot_plugin_summon
+desc: 大召唤术! 群内发送关键词自动艾特指定成员，小团体、光速开黑可用:)。支持多群多关键词、自定义文案、权限控制。
+version: 1.2.0
+author: konley
+display_name: 大召唤术
+repo: https://github.com/konley/astrbot_plugin_summon
+support_platforms:
+  - aiocqhttp
+astrbot_version: ">=4.17.0"

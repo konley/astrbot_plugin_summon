@@ -1,0 +1,21 @@
+{
+    "permission_mode": {
+        "description": "默认权限模式（每个群可用 /at toggle 单独切换）",
+        "type": "string",
+        "default": "everyone",
+        "options": ["everyone", "admin_only"],
+        "hint": "everyone=所有人可触发和管理规则, admin_only=仅管理员可触发和管理规则"
+    },
+    "default_message": {
+        "description": "默认文案",
+        "type": "string",
+        "default": "召唤",
+        "hint": "触发关键词时附带的前置文案，可被 /at msg 命令覆盖"
+    },
+    "command_prefixes": {
+        "description": "命令前缀（可配置多个别名）",
+        "type": "list",
+        "default": ["at", "大召唤术"],
+        "hint": "支持多个前缀，用户可用 /at 或 /大召唤术 触发命令"
+    }
+}
